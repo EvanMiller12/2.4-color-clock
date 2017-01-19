@@ -1,3 +1,16 @@
 body{
-  background-color: orange;
-}
+  background-color: #867B2E;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #FFF;
+  text-align: center;
+  }
+
+  h1{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 350px;
+  }
+
+  .current-time{
+  }
