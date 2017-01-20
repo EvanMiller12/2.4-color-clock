@@ -5,3 +5,13 @@ body{
   color: #FFF;
   text-align: center;
   }
+
+
+  #progressBar {
+position: relative;
+top: 50px;
+left: 80px;
+width: 50%;
+background-color: white;
+
+  }
