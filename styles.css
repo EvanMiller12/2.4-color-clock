@@ -1,17 +1,23 @@
 body{
-  background-color: #867B2E;
-  font-size: 50px;
-  font-family: sans-serif;
-  color: #FFF;
   text-align: center;
+  }
+
+  #background {
+    background: #867B2E;
+  }
+
+  span{
+    font-family: monospace;
+    font-size: 70px;
+    color: #FFF;
+    font-weight:bold;
   }
 
 
   #progressBar {
-position: relative;
-top: 50px;
-left: 80px;
-width: 50%;
-background-color: white;
-
+    text-align: center;
+    top: 50px;
+    left: 80px;
+    width: 50%;
+    background-color: white;
   }
