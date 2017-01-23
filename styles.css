@@ -1,5 +1,6 @@
 body{
   text-align: center;
+  padding-top: 312px;
   }
 
   #background {
@@ -8,7 +9,7 @@ body{
 
   span{
     font-family: monospace;
-    font-size: 70px;
+    font-size: 80px;
     color: #FFF;
     font-weight:bold;
   }
@@ -16,8 +17,6 @@ body{
 
   #progressBar {
     text-align: center;
-    top: 50px;
-    left: 80px;
     width: 50%;
     background-color: white;
   }
