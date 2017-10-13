@@ -1,22 +1,58 @@
 body{
+  font-family: monospace;
+  color: #FFF;
+}
+
+span{
+  font-size: 80px;
+  font-weight:bold;
+}
+
+@media(max-width: 805px) {
+  span {
+    font-size: 50px;
+  }
+}
+
+#clock {
+  position: absolute;
+  top: 25%;
+  left: 15%;
   text-align: center;
-  padding-top: 312px;
-  }
+  width: 60%;
+  height: 50%;
+  padding: 20px;
+  border: 10px solid black;
+  border-radius: 25%;
+}
 
-  #background {
-    background: #867B2E;
-  }
+#clock h1 {
+  font-size: 40px;
+  margin-top: 50px;
+}
 
-  span{
-    font-family: monospace;
-    font-size: 80px;
-    color: #FFF;
-    font-weight:bold;
+@media(max-width: 550px) {
+  #clock h1 {
+    margin-top: 100px;
+    font-size: 25px;
   }
-
-
-  #progressBar {
-    text-align: center;
-    width: 50%;
-    background-color: white;
+  
+  span {
+    font-size: 30px;
   }
+}
+
+#clock:hover {
+  cursor: pointer;
+}
+
+.clock-display {
+  z-index: 5;
+  margin-top: 5%;
+}
+
+#progressBar {
+  text-align: center;
+  height: 7px;
+  background-color: #FFF;
+}
